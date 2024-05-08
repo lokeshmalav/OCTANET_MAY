@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 200px;
+    padding-left: 100px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 20px;
+}
+.menu a:last-child {
+ background:#e74c3c ;
+ border-radius:4px;
+}
+.menu a:hover{
+    background:#e74c3c ;
+    border-radius:4px;
+    transition: 0.4s linear;
+}
+
+.line{
+    margin-top: -60px;
+    position: absolute;
+    top: 22%;
+    left: 8%;
+
+}
+.box1{
+    width: 10px;
+    height: 10px;
+    background: white;
+}
+
+.box2{
+    width: 60px;
+    height: 2px;
+    background: white;
+}
+
+.box3{
+    width: 100px;
+    height: 2px;
+    background: white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    height: 100%;
+}
+
+.left{
+    flex-basis: 40%;
+
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+    margin-top: 100px;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,transparent,#0004);
+}
+.left h1{
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+.left button{
+    background:#e74c3c;
+    color: white;
+    padding:10px 20px ;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius:5px ;
+}
+
+.s-icon {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.s-icon img {
+
+    margin: 0 10px; 
+    max-width: 50px; 
+}
